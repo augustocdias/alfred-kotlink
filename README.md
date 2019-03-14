@@ -12,4 +12,6 @@ $ npm install --global alfred-kotlink
 
 ## Usage
 
-In Alfred, type `kk` and your query, to search for links. Press enter to open in the default browser.
+First you have to setup your Kotlink server and secret (you can find it in `https://YOUR_SERVER/ui/setup_instructions`). For that first you type `kk set_server YOUR_SERVER_URL` and then `kk set_secret YOUR_SECRET`.
+
+Then in Alfred, type `kk` and your query, to search for links. Press enter to open in the default browser.

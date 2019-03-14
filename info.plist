@@ -76,7 +76,7 @@
 				<key>spaces</key>
 				<string>%20</string>
 				<key>url</key>
-				<string>https://kotlink.platform.olx.berlin/api/link/redirect?link={query}</string>
+				<string>{query}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>

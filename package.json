@@ -1,7 +1,7 @@
 {
-    "name": "alfred-kotlinks",
+    "name": "alfred-kotlink",
     "version": "1.0.0",
-    "description": "Alfred workflow to integrate with kotlinks",
+    "description": "Alfred workflow to integrate with kotlink",
     "license": "GPL-3.0-only",
     "repository": {
         "url": "https://github.com/augustocdias/alfred-kotlink",

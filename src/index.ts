@@ -42,11 +42,18 @@ if (res) {
                     return {
                         title: val,
                         uid: val,
-                        arg: val,
+                        arg: `${server}/api/link/redirect?link=${val}`,
                         autocomplete: val
                     };
                 });
-                alfy.output(results);
+                if (results.length > 0) {
+                    alfy.output(results);
+                } else {
+                    alfy.output([{
+                        title: `$alfy.input not found. Press enter to add a new entry.`,
+                        arg: `${server}/ui/alias/new?`
+                    }]);
+                }
             });
     }
 }
