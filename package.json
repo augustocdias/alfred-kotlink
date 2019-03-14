@@ -1,0 +1,40 @@
+{
+    "name": "alfred-kotlinks",
+    "version": "1.0.0",
+    "description": "Alfred workflow to integrate with kotlinks",
+    "license": "GPL-3.0-only",
+    "repository": {
+        "url": "https://github.com/augustocdias/alfred-kotlink",
+        "type": "git"
+    },
+    "engines": {
+        "node": ">=8"
+    },
+    "scripts": {
+        "build": "tsc -p .",
+        "postinstall": "alfy-init",
+        "preuninstall": "alfy-cleanup",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "files": [
+        "info.plist",
+        "icon.png",
+        "lib/index.js",
+        "lib/set_cache.js"
+    ],
+    "keywords": [
+        "kotlink",
+        "alfred"
+    ],
+    "author": {
+        "name": "Augusto César Dias",
+        "email": "augusto.c.dias@gmail.com"
+    },
+    "dependencies": {
+        "alfy": "^0.8.0"
+    },
+    "devDependencies": {
+        "@types/node": "^11.11.3",
+        "typescript": "^3.3.3333"
+    }
+}
