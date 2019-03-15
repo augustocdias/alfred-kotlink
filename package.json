@@ -14,6 +14,7 @@
         "build": "tsc -p .",
         "postinstall": "alfy-init",
         "preuninstall": "alfy-cleanup",
+        "prepublish": "tsc -p .",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "files": [

@@ -50,7 +50,7 @@ if (res) {
                     alfy.output(results);
                 } else {
                     alfy.output([{
-                        title: `$alfy.input not found. Press enter to add a new entry.`,
+                        title: `${alfy.input} not found. Press enter to add a new entry.`,
                         arg: `${server}/ui/alias/new?`
                     }]);
                 }
